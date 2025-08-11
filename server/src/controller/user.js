@@ -9,7 +9,7 @@ const getallUsers = async (req, res) => {
   }
 };
 
-const postUser = async (req, res) => {
+const registerUser = async (req, res) => {
   try {
     const user = await User.create(req.body);
     res.status(201).json(user);
@@ -18,4 +18,4 @@ const postUser = async (req, res) => {
   }
 };
 
-export { getallUsers, postUser };
+export { getallUsers, registerUser };
