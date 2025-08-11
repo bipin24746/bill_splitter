@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 const { Schema } = mongoose;
 
 const userSchema = new Schema(
@@ -9,9 +10,9 @@ const userSchema = new Schema(
       trim: true,
     },
     phoneNo: {
-      type: Number,
+      type: String,
       required: true,
-      trim: true
+      trim: true,
     },
     email: {
       type: String,
@@ -30,4 +31,5 @@ const userSchema = new Schema(
   }
 );
 
-export default mongoose.model("User", userSchema);
+const User = mongoose.model('user', userSchema);
+export default User;

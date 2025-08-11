@@ -5,6 +5,21 @@ TripSplit simplifies managing shared expenses for group trips. Users register wi
 
 ---
 
+
+PHASE-1
+ 
+📝 User Authentication
+👥 Create groups and assign users to groups
+💸 Divide bills among the users in different groups
+📑 Add photos of the bills/items to each expenses
+💰 Settle expenses and track payments
+🔄 History of settled expenses and payments
+📊 Analysis: bar chart, pie chart
+Email: Send reports of payments
+Notification to other user regarding pending dues
+ 
+<!--  
+PHASE -2
 ## ✨ Features
 
 - 📝 **User Registration:** Name, Email, Phone Number, Password  
@@ -45,4 +60,4 @@ TripSplit simplifies managing shared expenses for group trips. Users register wi
 - Email SMTP account (Gmail or SendGrid recommended)  
 - Firebase account (if implementing push notifications)  
 
----
+--- -->
